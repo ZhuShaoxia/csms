@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.csms.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifyPasswordServlet</servlet-name>
+        <servlet-class>com.csms.servlet.ModifyPasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyPasswordServlet</servlet-name>
+        <url-pattern>/common/ModifyPasswordServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <servlet-class>com.csms.servlet.UserRegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <url-pattern>/system/UserRegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserListServlet</servlet-name>
+        <servlet-class>com.csms.servlet.UserListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserListServlet</servlet-name>
+        <url-pattern>/system/UserListServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserInfoServlet</servlet-name>
+        <servlet-class>com.csms.servlet.UserInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserInfoServlet</servlet-name>
+        <url-pattern>/system/UserInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserModifyInfoServlet</servlet-name>
+        <servlet-class>com.csms.servlet.UserModifyInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserModifyInfoServlet</servlet-name>
+        <url-pattern>/system/UserModifyInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserSearchServlet</servlet-name>
+        <servlet-class>com.csms.servlet.UserSearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserSearchServlet</servlet-name>
+        <url-pattern>/system/UserSearchServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserRemoveServlet</servlet-name>
+        <servlet-class>com.csms.servlet.UserRemoveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRemoveServlet</servlet-name>
+        <url-pattern>/system/UserRemoveServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>DepotListServlet</servlet-name>
+        <servlet-class>com.csms.servlet.DepotListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepotListServlet</servlet-name>
+        <url-pattern>/system/DepotListServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepotSearchServlet</servlet-name>
+        <servlet-class>com.csms.servlet.DepotSearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepotSearchServlet</servlet-name>
+        <url-pattern>/system/DepotSearchServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepotInfoServlet</servlet-name>
+        <servlet-class>com.csms.servlet.DepotInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepotInfoServlet</servlet-name>
+        <url-pattern>/system/DepotInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepotModifyServlet</servlet-name>
+        <servlet-class>com.csms.servlet.DepotModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepotModifyServlet</servlet-name>
+        <url-pattern>/system/DepotModifyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepotInsertServlet</servlet-name>
+        <servlet-class>com.csms.servlet.DepotInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepotInsertServlet</servlet-name>
+        <url-pattern>/system/DepotInsertServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepotRemoveServlet</servlet-name>
+        <servlet-class>com.csms.servlet.DepotRemoveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepotRemoveServlet</servlet-name>
+        <url-pattern>/system/DepotRemoveServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>ClothesNumberInfoServlet</servlet-name>
+        <servlet-class>com.csms.servlet.ClothesNumberInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClothesNumberInfoServlet</servlet-name>
+        <url-pattern>/system/ClothesNumberInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClothesNumberInsertServlet</servlet-name>
+        <servlet-class>com.csms.servlet.ClothesNumberInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClothesNumberInsertServlet</servlet-name>
+        <url-pattern>/system/ClothesNumberInsertServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClothesNumberListServlet</servlet-name>
+        <servlet-class>com.csms.servlet.ClothesNumberListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClothesNumberListServlet</servlet-name>
+        <url-pattern>/system/ClothesNumberListServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClothesNumberModifyServlet</servlet-name>
+        <servlet-class>com.csms.servlet.ClothesNumberModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClothesNumberModifyServlet</servlet-name>
+        <url-pattern>/system/ClothesNumberModifyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClothesNumberRemoveServlet</servlet-name>
+        <servlet-class>com.csms.servlet.ClothesNumberRemoveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClothesNumberRemoveServlet</servlet-name>
+        <url-pattern>/system/ClothesNumberRemoveServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClothesNumberSearchServlet</servlet-name>
+        <servlet-class>com.csms.servlet.ClothesNumberSearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClothesNumberSearchServlet</servlet-name>
+        <url-pattern>/system/ClothesNumberSearchServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <servlet>
+        <servlet-name>InOrderInfoServlet</servlet-name>
+        <servlet-class>com.csms.servlet.InOrderInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InOrderInfoServlet</servlet-name>
+        <url-pattern>/stock/InOrderInfoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InOrderInsertServlet</servlet-name>
+        <servlet-class>com.csms.servlet.InOrderInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InOrderInsertServlet</servlet-name>
+        <url-pattern>/stock/InOrderInsertServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InOrderListServlet</servlet-name>
+        <servlet-class>com.csms.servlet.InOrderListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InOrderListServlet</servlet-name>
+        <url-pattern>/stock/InOrderListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InOrderModifyServlet</servlet-name>
+        <servlet-class>com.csms.servlet.InOrderModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InOrderModifyServlet</servlet-name>
+        <url-pattern>/stock/InOrderModifyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InOrderRemoveServlet</servlet-name>
+        <servlet-class>com.csms.servlet.InOrderRemoveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InOrderRemoveServlet</servlet-name>
+        <url-pattern>/stock/InOrderRemoveServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InOrderSearchServlet</servlet-name>
+        <servlet-class>com.csms.servlet.InOrderSearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InOrderSearchServlet</servlet-name>
+        <url-pattern>/stock/InOrderSearchServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InOrderDetailServlet</servlet-name>
+        <servlet-class>com.csms.servlet.InOrderDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InOrderDetailServlet</servlet-name>
+        <url-pattern>/stock/InOrderDetailServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>OutOrderServlet</servlet-name>
+        <servlet-class>com.csms.servlet.OutOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OutOrderServlet</servlet-name>
+        <url-pattern>/stock/OutOrderServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OutOrderDetailServlet</servlet-name>
+        <servlet-class>com.csms.servlet.OutOrderDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OutOrderDetailServlet</servlet-name>
+        <url-pattern>/stock/OutOrderDetailServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

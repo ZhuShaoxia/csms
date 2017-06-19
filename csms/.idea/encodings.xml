@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/web/js/addFunction.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/calendar.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/check.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/cjcalendar.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/common.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/date.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/menu.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/msn_message.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/page.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js/qq_hidemenu.js" charset="GBK" />
+  </component>
+</project>
